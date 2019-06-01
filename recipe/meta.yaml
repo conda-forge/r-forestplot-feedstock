@@ -1,4 +1,4 @@
-{% set version = '1.7.2' %}
+{% set version = "1.8" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,11 +12,11 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/forestplot_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/forestplot/forestplot_{{ version }}.tar.gz
-  sha256: af852fffc7d395ad4b39bea1a723daaf8ecb2ade772261bbb18ad875b90313b3
+  sha256: 6d23e5ed32d987bb025c4a9091883e83e3e7a0bb5cc2377d386bc91eccefdeb3
 
 build:
   noarch: generic
-  number: 1000
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
