@@ -1,4 +1,4 @@
-{% set version = "1.10" %}
+{% set version = "1.10.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/forestplot_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/forestplot/forestplot_{{ version }}.tar.gz
-  sha256: dae48fe38e780e2aed85b8f82b439f387bbb077931c5179517216987ac37686b
+  sha256: 367023a6de394f7fdb969ffafbea5d711384cb2286392a17b7d001c777582bee
 
 build:
   merge_build_host: true  # [win]
