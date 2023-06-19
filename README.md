@@ -1,11 +1,11 @@
-About r-forestplot
-==================
+About r-forestplot-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-forestplot-feedstock/blob/main/LICENSE.txt)
 
 Home: http://gforge.se/packages/
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-forestplot-feedstock/blob/main/LICENSE.txt)
 
 Summary: A forest plot that allows for multiple confidence intervals per row, custom fonts for each text element, custom confidence intervals, text mixed with expressions, and more. The aim is to extend the use of forest plots beyond meta-analyses. This is a more general version of the original 'rmeta' package's forestplot() function and relies heavily on the 'grid' package.
 
