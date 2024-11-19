@@ -1,4 +1,4 @@
-{% set version = "3.1.5" %}
+{% set version = "3.1.6" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/forestplot_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/forestplot/forestplot_{{ version }}.tar.gz
-  sha256: 7f694266b015b71570d84ef6bece6915c15beecb1e633b8d4e1f575195202dcc
+  sha256: 109f7c008c696abdb8b63d9ef48dc05a1fc2088ace2ae1c9e357509423455ec6
 
 build:
   number: 0
