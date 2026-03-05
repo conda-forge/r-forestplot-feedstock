@@ -1,4 +1,4 @@
-{% set version = "3.1.7" %}
+{% set version = "3.2.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/forestplot_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/forestplot/forestplot_{{ version }}.tar.gz
-  sha256: b71882cd25ae5caa9ca41b3e0294d42f7756ea35c3d9a2fe0245ef8ab2491f4a
+  sha256: 1f6e4795fb7411a1161494ab6f592e32044f45253bb6a2e02bbca4ac146102e7
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -38,8 +38,8 @@ test:
 about:
   home: http://gforge.se/packages/
   license: GPL-2.0-only
-  summary: A forest plot that allows for multiple confidence intervals per row, custom fonts for each text element, custom confidence intervals, text mixed with expressions, and more. The aim is to extend the use of forest plots beyond meta-analyses. This is a more general version of the original 'rmeta' package's forestplot()
-    function and relies heavily on the 'grid' package.
+  summary: A forest plot that allows for multiple confidence intervals per row, custom fonts for each text element, custom confidence intervals, text mixed with expressions, and more. The aim is to extend the use of forest plots beyond meta-analyses. This is a more general version of the original 'rmeta' package's 
+    forestplot() function and relies heavily on the 'grid' package.
   license_family: GPL2
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
